@@ -1,0 +1,23 @@
+# Production Dependencies
+chromadb==1.5.7
+langchain>=1.3.12
+langchain-community==0.4.0
+langchain-openai==1.1.13
+nest-asyncio>=1.6.0
+openai==2.31.0
+pandas==3.0.2
+python-dotenv>=1.0.0
+ragas==0.4.3
+rouge-score>=0.1.2
+sacrebleu>=2.6.0
+spacy>=3.8.0,<3.9.0
+streamlit==1.56.0
+
+# spaCy Model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+
+# Development Dependencies
+poetry-plugin-export>=1.10.0
+pytest>=9.1.1
+ruff>=0.15.21
+uuid>=1.30

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "1",
+    "mission": "Apollo 11",
+    "question": "From which specific launch pad and complex was the Saturn V AS-506 launched on July 16, 1969?",
+    "expected": "Complex 39, Pad A",
+    "mission_filter": "apollo_11",
+    "test_metric": "Faithfulness score",
+    "category": "technical"
+  },
+  {
+    "id": "2",
+    "mission": "Apollo 11",
+    "question": "What was the exact duration of the S-IVB first burn during the mission?",
+    "expected": "147.1 seconds",
+    "mission_filter": "apollo_11",
+    "test_metric": "Answer Relevancy",
+    "category": "timeline"
+  },
+  {
+    "id": "3",
+    "mission": "Apollo 11",
+    "question": "At what mission time did the S-IVB/IU make its closest approach above the lunar surface?",
+    "expected": "78.7 hours into the mission",
+    "mission_filter": "apollo_11",
+    "test_metric": "Rouge-L F1 Score",
+    "category": "timeline"
+  },
+  {
+    "id": "4",
+    "mission": "Apollo 11",
+    "question": "What was the exact flight azimuth in degrees east of north that the vehicle rolled to after lift-off?",
+    "expected": "72.058 degrees east of north",
+    "mission_filter": "apollo_11",
+    "test_metric": "Bleu-4 Precision",
+    "category": "technical"
+  },
+  {
+    "id": "5",
+    "mission": "Apollo 13",
+    "question": "Who prepared the Apollo 13 technical air-to-ground voice transcription?",
+    "expected": "Test Division, Apollo Spacecraft Program Office",
+    "mission_filter": "apollo_13",
+    "test_metric": "Faithfulness score",
+    "category": "technical"
+  },
+  {
+    "id": "6",
+    "mission": "Apollo 13",
+    "question": "What was the scheduled launch time of Apollo 13 in EST?",
+    "expected": "2:13 P.M. EST",
+    "mission_filter": "apollo_13",
+    "test_metric": "Answer Relevancy",
+    "category": "timeline"
+  },
+  {
+    "id": "7",
+    "mission": "Apollo 13",
+    "question": "Who was the spacecraft commander of the Apollo 13 mission?",
+    "expected": "Jim Lovell",
+    "mission_filter": "apollo_13",
+    "test_metric": "Rouge-L F1 Score",
+    "category": "crew"
+  },
+  {
+    "id": "8",
+    "mission": "Apollo 13",
+    "question": "Who was the backup commander for the Apollo 13 mission?",
+    "expected": "John Young",
+    "mission_filter": "apollo_13",
+    "test_metric": "Bleu-4 Precision",
+    "category": "crew"
+  },
+  {
+    "id": "9",
+    "mission": "Challenger",
+    "question": "Who was the commander of the Challenger STS-51L mission?",
+    "expected": "Francis Dick Scobie",
+    "mission_filter": "challenger",
+    "test_metric": "Faithfulness score",
+    "category": "crew"
+  },
+  {
+    "id": "10",
+    "mission": "Challenger",
+    "question": "Who was the first private citizen/teacher to fly aboard the Challenger STS-51L mission?",
+    "expected": "Krista McAuliffe",
+    "mission_filter": "challenger",
+    "test_metric": "Answer Relevancy",
+    "category": "overview"
+  },
+  {
+    "id": "11",
+    "mission": "Challenger",
+    "question": "This mission was which number flight for the Orbiter Challenger?",
+    "expected": "10th flight",
+    "mission_filter": "challenger",
+    "test_metric": "Rouge-L F1 Score",
+    "category": "overview"
+  },
+  {
+    "id": "12",
+    "mission": "Challenger",
+    "question": "Who served as the pilot for the Challenger STS-51L crew?",
+    "expected": "Michael Smith",
+    "mission_filter": "challenger",
+    "test_metric": "Bleu-4 Precision",
+    "category": "crew"
+  },
+  {
+    "id": "13",
+    "mission": "Challenger",
+    "question": "What weather condition and wind issue caused unacceptable conditions at the originally planned launch time of Challenger STS-51L?",
+    "expected": "unacceptable weather conditions and upper level winds",
+    "mission_filter": "challenger",
+    "test_metric": "Faithfulness score",
+    "category": "disaster analysis"
+  },
+  {
+    "id": "14",
+    "mission": "Challenger",
+    "question": "What issue prompted the rotating service structure to be put back into place around Challenger?",
+    "expected": "inclement weather conditions",
+    "mission_filter": "challenger",
+    "test_metric": "Answer Relevancy",
+    "category": "emergency"
+  },
+  {
+    "id": "15",
+    "mission": "Apollo 11",
+    "question": "What flavor of ice cream did Neil Armstrong request immediately after landing back on Earth?",
+    "expected": "cannot be found in the logs",
+    "mission_filter": "apollo_11",
+    "test_metric": "Faithfulness score",
+    "category": "technical"
+  },
+  {
+    "id": "16",
+    "mission": "Apollo 13",
+    "question": "Which specific brand of tape recorder did the crew use to play their background music?",
+    "expected": "cannot be found in the logs",
+    "mission_filter": "apollo_13",
+    "test_metric": "Answer Relevancy",
+    "category": "technical"
+  },
+  {
+    "id": "17",
+    "mission": "Challenger",
+    "question": "What was the name of the ship captain who recovered the solid rocket boosters from the ocean?",
+    "expected": "cannot be found in the logs",
+    "mission_filter": "challenger",
+    "test_metric": "Faithfulness score",
+    "category": "crew"
+  }
+]
